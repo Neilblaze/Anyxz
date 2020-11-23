@@ -40,4 +40,52 @@ canvas {
   margin-left: calc((100vw - (540px + 200px)) / 2);
 }
 
+video {
+  margin-left: calc(((100vw - (540px + 200px)) / 2) / 2);
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.row {
+  display: inline-flex;
+  float: right;
+}
+
+#event-container {
+  width: 100%;
+  margin-top: 5vh;
+  --bs-gutter-x: none;
+}
+
+#event-container .row {
+  --bs-gutter-x: none;
+}
+
+#nav-image-capture {
+  margin-top: 10px;
+}
+
+.nav-link.active {
+  background-color: #e5e9e9;
+  color: black;
+}
+
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link {
+  color: black;
+  background-color: white;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background-color: #e5e9e9;
+  color: black;
+  transition: background 0.2s linear;
+}
+
+nav > div a.nav-item.nav-link:hover {
+  border-radius: 0;
+}
+
 
