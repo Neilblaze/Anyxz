@@ -30,4 +30,14 @@ html {
   text-decoration: none;
 }
 
+#loading-time {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+canvas {
+  float: left;
+  margin-left: calc((100vw - (540px + 200px)) / 2);
+}
+
 
