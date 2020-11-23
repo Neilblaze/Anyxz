@@ -194,3 +194,95 @@ function startRecording() {
     );
 }
 
+//displays captured video on the dom
+function exportVideo(e) {
+  const blob = new Blob(chunks);
+  const vid = document.createElement("video");
+  vid.id = "preview-video";
+  vid.style.width = "400px";
+  vid.style.height = "295px";
+  vid.controls = true;
+  vid.src = URL.createObjectURL(blob);
+  prevVidContainer.appendChild(vid);
+  vid.play();
+  //creting video download btn
+  const downloadVideoBtn = document.createElement("a");
+  downloadVideoBtn.innerText = "Download";
+  downloadVideoBtn.className = "btn btn-light";
+  downloadVideoBtn.id = "download-video-btn";
+  prevVidContainer.appendChild(downloadVideoBtn);
+  //connecting the download btn with the video source
+  downloadVideoBtn.href = vid.src;
+  downloadVideoBtn.download = "anyxz.mp4";
+}
+
+//Image upload handler
+imgUpload.addEventListener("change", (e) => {
+  bg = "#000000";
+  background(bg); //try setting bg to #eee
+  const imgSrc = window.URL.createObjectURL(e.target.files[0]);
+  bg = loadImage(imgSrc); //changing background to imported image
+  background(bg);
+});
+
+//Image preview and download handler
+captureFrameBtn.addEventListener("click", () => {
+  saveFrames("out", "png", 1, 25, (data) => {
+    //removing an image if theres more than 6 images
+    if (prevImgContainer.childElementCount > 5) {
+      prevImgContainer.removeChild(
+        prevImgContainer.getElementsByTagName("div")[
+          prevImgContainer.childElementCount - 1
+        ]
+      );
+    }
+    const imgCard = document.createElement("div");
+    const img = new Image(300, 220);
+    const downloadBtn = document.createElement("a");
+    img.src = data[0].imageData;
+    downloadBtn.href = data[0].imageData;
+    img.className = "card-img-top";
+    img.style.width = "300px"; //need this to override bootstrap style
+    imgCard.className = "col-6 col-md-6";
+    downloadBtn.className = "btn btn-primary";
+    downloadBtn.innerText = "Download";
+    downloadBtn.id = "download-img-btn";
+    imgCard.append(img);
+    imgCard.appendChild(downloadBtn);
+    prevImgContainer.insertBefore(imgCard, prevImgContainer.firstChild);
+    downloadBtn.download = `${data[0].filename}.${data[0].ext}`;
+  });
+});
+
+//handling record-btn click
+recordBtn.addEventListener("click", () => {
+  //starts recording
+  if (!recording) {
+    recording = true;
+    const previewVideo = document.querySelector("#preview-video");
+    const downloadVideoBtn = document.querySelector("#download-video-btn");
+
+    if (previewVideo) {
+      prevVidContainer.removeChild(previewVideo);
+    }
+    if (downloadVideoBtn) {
+      prevVidContainer.removeChild(downloadVideoBtn);
+    }
+    startRecording();
+  }
+  //stops recording
+  else {
+    clearInterval(updateTimer);
+    recording = false;
+    recordBtn.innerText = "start a new recording"; //using innerHTML, which also removes the `counterSpan` element
+    recordBtn.className = "btn btn-light";
+    recordBtn.appendChild(recIconClone);
+    recorder.stop(); //recorder.stop calls `exportVideo` function
+  }
+});
+
+//color picker
+backgroundColour.addEventListener("change", (e) => {
+  bg = e.target.value;
+  background(bg);
+});
