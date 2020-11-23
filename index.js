@@ -47,3 +47,9 @@ const webcamWarningModal = new bootstrap.Modal(
   { show: false }
 );
 
+const audioDenyToastNotif = new bootstrap.Toast(
+  document.querySelector("#audio-denial-toast"),
+  {
+    delay: 5000,
+  }
+);
