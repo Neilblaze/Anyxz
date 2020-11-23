@@ -34,3 +34,16 @@ const VidInsPopover = new bootstrap.Popover(
     trigger: "focus",
   }
 );
+
+const ImgInsPopover = new bootstrap.Popover(
+  document.querySelector(".popover-dismiss-img"),
+  {
+    trigger: "focus",
+  }
+);
+
+const webcamWarningModal = new bootstrap.Modal(
+  document.getElementById("webcam-warning-modal"),
+  { show: false }
+);
+
