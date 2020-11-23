@@ -123,4 +123,74 @@ function gotResult(error, result) {
   uNet.segment(video, gotResult);
 }
 
+//starts capturing video from canvas and saving that data on `chunks` [https://stackoverflow.com/questions/42437971/exporting-a-video-in-p5-js]
+function startRecording() {
+  //handling music
+  navigator.mediaDevices
+    .getUserMedia({
+      audio: true,
+    })
+    .then(
+      (strm) => {
+        //Dom markup
+        const counterSpan = document.createElement("span");
+        recordBtn.innerText = "stop recording";
+        recordBtn.className = "btn btn-danger";
+        counterSpan.className = "badge bg-secondary";
+        counterSpan.innerText = 0;
+        recordBtn.appendChild(counterSpan);
+        updateTimer = setInterval(() => {
+          counterSpan.innerText = Number(counterSpan.innerText) + 1; //updating VC counter timer
+        }, 1000);
+        //clearing the chunks
+        chunks.length = 0;
+        let canvasStream = document.querySelector("canvas").captureStream(30);
+        //merging both the audio and the video stream
+        let combined = new MediaStream([
+          ...canvasStream.getTracks(),
+          ...strm.getTracks(),
+        ]);
+
+        recorder = new MediaRecorder(combined);
+
+        recorder.ondataavailable = (e) => {
+          if (e.data.size) {
+            chunks.push(e.data);
+          }
+        };
+        recorder.onstop = exportVideo;
+        recorder.start(); //starting the recorder
+      },
+      (error) => {
+        // Something went wrong, user didn't gave audio permission.
+        audioDenyToastNotif.show();
+        //Dom markup
+        const counterSpan = document.createElement("span");
+        recordBtn.innerText = "stop recording";
+        recordBtn.className = "btn btn-danger";
+        counterSpan.className = "badge bg-secondary";
+        counterSpan.innerText = 0;
+        recordBtn.appendChild(counterSpan);
+        updateTimer = setInterval(() => {
+          counterSpan.innerText = Number(counterSpan.innerText) + 1; //updating video capture counter timer
+        }, 1000);
+
+        //clearing the chunks
+        chunks.length = 0;
+        let canvasStream = document.querySelector("canvas").captureStream(30);
+        //getting the video stream
+        let combined = new MediaStream([...canvasStream.getTracks()]);
+
+        recorder = new MediaRecorder(combined);
+
+        recorder.ondataavailable = (e) => {
+          if (e.data.size) {
+            chunks.push(e.data);
+          }
+        };
+        recorder.onstop = exportVideo;
+        recorder.start(); //starting the recorder
+      }
+    );
+}
 
