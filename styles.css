@@ -16,4 +16,18 @@ html {
   padding: 5px 20px;
 }
 
+#expmnt-alert {
+  display: table;
+  position: absolute;
+  padding: 10px 1rem;
+  right: 5px;
+  top: 5px;
+}
+
+#expmnt-alert a {
+  color: black;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 
