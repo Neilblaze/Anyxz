@@ -90,6 +90,31 @@
       </div>
     </div>
     <!-- Webcam doc and warning section END -->
+	
+	<!-- Audio permission denial - toast warning START -->
+    <div
+      class="toast"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+      id="audio-denial-toast"
+    >
+      <div class="toast-header">
+        <strong class="mr-auto" id="toast-title">No Audio</strong>
+        <button
+          type="button"
+          class="ml-2 mb-1 close"
+          data-dismiss="toast"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="toast-body">
+        Audio permission denied, recording without audio
+      </div>
+    </div>
+    <!-- Audio permission denial - toast warning END -->
   
   </body>
 </html>
