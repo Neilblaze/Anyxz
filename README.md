@@ -20,10 +20,10 @@
 
 ### Built With
 
-* [HTML](https://reactjs.org/)
-* [Bootstrap](https://nextjs.org/)
-* [Unet](https://cloud.google.com/)
-* [p5js](https://jwt.io/)
+* [HTML](https://www.w3schools.com/html/)
+* [Bootstrap](https://getbootstrap.com/docs/3.4/javascript/)
+* [ml5 -> Unet](https://ml5js.org/reference/api-unet/)
+* [p5js](https://p5js.org/)
 
 
 <!-- GETTING STARTED -->
