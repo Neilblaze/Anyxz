@@ -1,0 +1,19 @@
+body,
+html {
+  font-family: 'Alef', sans-serif !important;
+  margin: 0 5vw;
+}
+
+#title {
+  border: 2px dashed rgb(71, 70, 70);
+  display: table;
+  margin: 5vh auto;
+  margin-top: 1vh;
+  width: 100px;
+  font-size: 22px;
+  font-family: 'Alef', sans-serif;
+  cursor: pointer;
+  padding: 5px 20px;
+}
+
+
