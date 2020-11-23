@@ -53,3 +53,19 @@ const audioDenyToastNotif = new bootstrap.Toast(
     delay: 5000,
   }
 );
+
+// load uNet model
+function preload() {
+  uNet = ml5.uNet("face");
+}
+
+//showing application loading time
+const captureInterval = setInterval(() => {
+  if (timeCount !== 0) {
+    timeCount = timeCount - 1;
+    loadingTime.innerText = `Estimated loading time: ${timeCount} seconds`;
+  }
+}, 1000);
+
+// Add auto reload function upon t = 30
+
