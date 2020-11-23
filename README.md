@@ -79,10 +79,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neilblaze)
 
 
-### Update ~ 23.11.20
-
-NJACK WOC 2020 project (proposal).
-- Issues will be updated soon.
-- Files will be uploaded after a bit refactoring.
-
-Thanks ✌️  
+### [NJACK WOC 2020](https://njackwinterofcode.github.io/) project (proposal) 🚀
