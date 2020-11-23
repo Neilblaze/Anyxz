@@ -88,4 +88,202 @@ nav > div a.nav-item.nav-link:hover {
   border-radius: 0;
 }
 
+#chrome-doc-link,
+#firefox-doc-link,
+#safari-doc-link {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 2px;
+}
 
+#chrome-doc-link {
+  border-bottom: 3px solid rgb(202, 189, 0);
+}
+
+#firefox-doc-link {
+  border-bottom: 3px solid rgb(155, 38, 9);
+}
+
+#safari-doc-link {
+  border-bottom: 3px solid rgb(39, 167, 241);
+}
+
+#chrome-doc-link:hover,
+#firefox-doc-link:hover,
+#safari-doc-link:hover {
+  border-bottom: 5px solid;
+}
+
+#nav-tab span {
+  flex: 1 1 auto;
+}
+
+#image-upload-container {
+  float: left;
+}
+
+#background-color-picker {
+  height: 38px;
+  width: 50px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  padding: 2px;
+  margin-left: 50px;
+}
+
+#image-capture-container {
+  width: 800px;
+  text-align: center;
+}
+
+#capture-frame-btn {
+  margin: 0 auto;
+  margin-bottom: 2vh;
+}
+
+#vid-cap-container {
+  text-align: center;
+  width: 800px;
+}
+
+#record-icon {
+  padding: 0;
+}
+
+#record-icon svg {
+  width: 15px;
+  height: 15px;
+  color: black;
+}
+
+#prev-img-container {
+  width: 100%;
+}
+
+.card-img-top {
+  display: block;
+  margin-left: calc((100% - 300px) / 2);
+}
+
+#preview-video {
+  margin: auto;
+}
+
+#vid-ins-container {
+  display: block;
+}
+
+#record-canvas-btn {
+  margin: 0 auto;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+#vid-ins-popover {
+  margin-left: 15px;
+  margin-top: -15px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+#vid-ins-popover:hover {
+  background-color: #ffffff;
+  border: none;
+  border-color: white;
+}
+
+#record-canvas-btn span {
+  margin-left: 5px;
+}
+
+#download-video-btn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  background-color: antiquewhite;
+}
+
+#download-img-btn {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+#download-video-btn:hover {
+  background-color: rgb(255, 235, 208);
+}
+
+#github-link {
+  position: absolute;
+  top: 0;
+  right: 2vh;
+  width: 35px;
+}
+
+#audio-denial-toast {
+  position: absolute;
+  top: 2px;
+  left: 1vw;
+}
+
+#toast-title {
+  color: red;
+}
+
+/* For responsiveness */
+@media only screen and (max-width: 992px) {
+  #tab-container {
+    margin-top: 5vh;
+  }
+
+  .webcam-feed {
+    display: none;
+  }
+
+  canvas {
+    margin-left: calc((90vw - 540px) / 2);
+  }
+
+  #background-color-picker {
+    margin-left: 15px;
+  }
+
+  #image-upload-container {
+    margin-left: 20vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #expmnt-alert {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #nav-tab {
+    display: block;
+  }
+
+  #image-capture-container {
+    width: 80vw;
+    /* 10 + 10 vw is margin  */
+  }
+
+  #vid-cap-container {
+    width: 80vw;
+  }
+
+  #event-container .row {
+    float: none;
+  }
+
+  .col-6 {
+    width: 100% !important;
+  }
+
+  canvas {
+    width: 450px;
+    height: 334px;
+  }
+}
