@@ -21,5 +21,75 @@
   </head>
 
   <body>
+  <h1 id="title">Anyxz</h1>
+    
+    <!-- Experiment Alert Start-->
+    <div class="alert alert-primary" role="alert" id="expmnt-alert">
+      This is an experiment!,
+      <a href="mailto:neilblaze007@gmail.com">send feedback</a>
+    </div>
+    <!-- Experiment Alert End -->
+
+    <!-- Webcam doc and warning section START -->
+    <div
+      class="modal fade"
+      id="webcam-warning-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body" id="no-img-warning">
+            <strong>Webcam access denied!</strong> This application modifies
+            your webcam stream background to any background you prefer! In order
+            to use this application you need to enable webcam access. Note that
+            no data is being sent to any server and everything happens in the
+            browser.
+            <br /><br />
+            Here's how to enable webcam permission for a application in
+            <!-- All browsers-->
+            <!-- Link: https://help.doxy.me/en/articles/95877-allow-access-to-camera-mic-for-all-browsers-operating-systems -->
+            <a
+              href="https://www.lifesize.com/en/app-help/guest/allow-camera-mic#:~:text=Click%20Site%20Settings.,drop%2Ddown%20menu%20at%20right."
+              target="_blank"
+              rel="noopener noreferrer"
+              id="chrome-doc-link"
+              >Chrome & Edge
+            </a>
+            ,
+            <a
+              href="https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="firefox-doc-link"
+            >
+              FireFox</a
+            >
+            ,
+            <a
+              href="https://support.apple.com/guide/safari/websites-ibrwe2159f50/mac"
+              target="_blank"
+              rel="noopener noreferrer"
+              id="safari-doc-link"
+            >
+              Safari</a
+            >
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              id="clear-modal-btn"
+              data-dismiss="modal"
+            >
+              I understand
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Webcam doc and warning section END -->
+  
   </body>
 </html>
