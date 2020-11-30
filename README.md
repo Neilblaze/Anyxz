@@ -18,7 +18,7 @@
 </p>
 
 
-### Built With
+### ⚙️ Built With
 
 * [HTML](https://www.w3schools.com/html/)
 * [Bootstrap](https://getbootstrap.com/docs/3.4/javascript/)
@@ -32,7 +32,7 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Installation
+### :rocket: Local Development
 
 1. Clone the repository:
 
@@ -55,7 +55,7 @@ See the [open issues](https://github.com/Neilblaze/Anyxz/issues) for a list of p
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## :v: Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -75,7 +75,7 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- RESOURCES -->
-## Resources
+## ✨ Resources
 
 - NWOC 2020 Get started [Guide](https://github.com/NJACKWinterOfCode/Get-Started-NWoC20).
 - Git [Good Practices](https://medium.com/datreeio/top-10-github-best-practices-for-developers-d6309a613227)
