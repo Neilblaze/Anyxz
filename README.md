@@ -20,8 +20,6 @@
 
 ### Built With
 
-[![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 * [HTML](https://www.w3schools.com/html/)
 * [Bootstrap](https://getbootstrap.com/docs/3.4/javascript/)
 * [ml5 -> Unet](https://ml5js.org/reference/api-unet/)
@@ -67,6 +65,7 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+[![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 <!-- LICENSE -->
