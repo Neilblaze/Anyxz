@@ -85,3 +85,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neilblaze)
 
+<br />
+<p align="center">
+  <a href="https://vercel.com">
+    <img src="https://raw.githubusercontent.com/Neilblaze/Anyxz/c805c8727a84c4fd1aba8d3a52d30412acaa9524/assets/powered-by-vercel.svg" >
+  </a>
+</p>
