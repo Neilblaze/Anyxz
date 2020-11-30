@@ -78,5 +78,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neilblaze)
 
-
-### [NJACK WOC 2020](https://njackwinterofcode.github.io/) project (proposal) 🚀
