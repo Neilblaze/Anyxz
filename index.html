@@ -1,312 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Anyxz</title>
-    <meta property="og:title" content="Ez Video Background Semantic Segmentation" />
-    <meta property="og:type" content="website" />
-    <!-- Update reqd -->
-    <meta property="og:image" content="#" />
-    <meta property="og:description" content="Ez Change/Modify segmented video background!" />
-    <!-- Update reqd -->
-    <meta property="og:url" content="#" />
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
-    <!-- Don't alter the sequence -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-  </head>
 
-  <body>
-    <h1 id="title">Anyxz</h1>
-    
-    <!-- Experiment Alert Start-->
-    <div class="alert alert-primary" role="alert" id="expmnt-alert">
-      This is an experiment!,
-      <a href="mailto:neilblaze007@gmail.com">send feedback</a>
-    </div>
-    <!-- Experiment Alert End -->
+<head>
+  <meta charset="UTF-8" />
+  <!-- i am changing the title to improve seo -->
+  <title>[ANYXZ] - EDITS YOUR BACKGROUND DURING LIVE VIDEO CHATS</title>
+  <meta property="og:title" content="Ez Video Background Semantic Segmentation" />
+  <meta property="og:type" content="website" />
+  <!-- Update reqd -->
+  <!--  i have added the main logo as the content in image -->
+  <meta property="og:image" content="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/favicon.png" />
+  <meta property="og:description" content="Ez Change/Modify segmented video background!" />
+  <!-- Update reqd -->
+  <!--  i have added the url of the website  -->
+  <meta property="og:url" content="https://anyxz.vercel.app" />
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+  <!-- Don't alter the sequence -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+</head>
 
-    <!-- Webcam doc and warning section START -->
-    <div
-      class="modal fade"
-      id="webcam-warning-modal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body" id="no-img-warning">
-            <strong>Webcam access denied!</strong> This application modifies
-            your webcam stream background to any background you prefer! In order
-            to use this application you need to enable webcam access. Note that
-            no data is being sent to any server and everything happens in the
-            browser.
-            <br /><br />
-            Here's how to enable webcam permission for a application in
-            <!-- All browsers-->
-            <!-- Link: https://help.doxy.me/en/articles/95877-allow-access-to-camera-mic-for-all-browsers-operating-systems -->
-            <a
-              href="https://www.lifesize.com/en/app-help/guest/allow-camera-mic#:~:text=Click%20Site%20Settings.,drop%2Ddown%20menu%20at%20right."
-              target="_blank"
-              rel="noopener noreferrer"
-              id="chrome-doc-link"
-              >Chrome & Edge
-            </a>
-            ,
-            <a
-              href="https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions"
-              target="_blank"
-              rel="noopener noreferrer"
-              id="firefox-doc-link"
-            >
-              FireFox</a
-            >
-            ,
-            <a
-              href="https://support.apple.com/guide/safari/websites-ibrwe2159f50/mac"
-              target="_blank"
-              rel="noopener noreferrer"
-              id="safari-doc-link"
-            >
-              Safari</a
-            >
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-primary"
-              id="clear-modal-btn"
-              data-dismiss="modal"
-            >
-              I understand
-            </button>
-          </div>
+<body>
+  <h1 id="title">Anyxz</h1>
+
+  <!-- Experiment Alert Start-->
+  <div class="alert alert-primary" role="alert" id="expmnt-alert">
+    This is an experiment!,
+    <a href="mailto:neilblaze007@gmail.com">send feedback</a>
+  </div>
+  <!-- Experiment Alert End -->
+
+  <!-- Webcam doc and warning section START -->
+  <div class="modal fade" id="webcam-warning-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body" id="no-img-warning">
+          <strong>Webcam access denied!</strong> This application modifies
+          your webcam stream background to any background you prefer! In order
+          to use this application you need to enable webcam access. Note that
+          no data is being sent to any server and everything happens in the
+          browser.
+          <br /><br />
+          Here's how to enable webcam permission for a application in
+          <!-- All browsers-->
+          <!-- Link: https://help.doxy.me/en/articles/95877-allow-access-to-camera-mic-for-all-browsers-operating-systems -->
+          <a href="https://www.lifesize.com/en/app-help/guest/allow-camera-mic#:~:text=Click%20Site%20Settings.,drop%2Ddown%20menu%20at%20right."
+            target="_blank" rel="noopener noreferrer" id="chrome-doc-link">Chrome & Edge
+          </a>
+          ,
+          <a href="https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions"
+            target="_blank" rel="noopener noreferrer" id="firefox-doc-link">
+            FireFox</a>
+          ,
+          <a href="https://support.apple.com/guide/safari/websites-ibrwe2159f50/mac" target="_blank"
+            rel="noopener noreferrer" id="safari-doc-link">
+            Safari</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="clear-modal-btn" data-dismiss="modal">
+            I understand
+          </button>
         </div>
       </div>
     </div>
-    <!-- Webcam doc and warning section END -->
+  </div>
+  <!-- Webcam doc and warning section END -->
 
-    <!-- Audio permission denial - toast warning START -->
-    <div
-      class="toast"
-      role="alert"
-      aria-live="assertive"
-      aria-atomic="true"
-      id="audio-denial-toast"
-    >
-      <div class="toast-header">
-        <strong class="mr-auto" id="toast-title">No Audio</strong>
-        <button
-          type="button"
-          class="ml-2 mb-1 close"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="toast-body">
-        Audio permission denied, recording without audio
-      </div>
+  <!-- Audio permission denial - toast warning START -->
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="audio-denial-toast">
+    <div class="toast-header">
+      <strong class="mr-auto" id="toast-title">No Audio</strong>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
-    <!-- Audio permission denial - toast warning END -->
+    <div class="toast-body">
+      Audio permission denied, recording without audio
+    </div>
+  </div>
+  <!-- Audio permission denial - toast warning END -->
 
-    <!-- Showing application loading time -->
-    <h4 id="loading-time">Estimated loading time: 30 seconds</h4>
-    <div id="dom-elements" style="display: none;">
-      <div class="row" id="event-container">
-        <div class="col col-lg-6 col-md-12">
-          <!-- Background Input Start -->
-          <label for="image-upload" id="image-upload-container">
-            <span
-              class="btn btn-warning"
-              data-toggle="tooltip"
-              title="import background image from device"
-            >
-              <img
-                src="./assets/folder-search.svg"
-                alt="import background image from device"
-                width="20px"
-                height="20px"
-              />
-              New Background Image
-            </span>
-          </label>
-          <input
-            id="image-upload"
-            type="file"
-            accept="image/*"
-            style="display: none;"
-          />
-          <span data-toggle="tooltip" title="Choose your background color">
-            <input
-              type="color"
-              id="background-color-picker"
-              name="background-color-picker"
-              value="#34eb89"
-            />
+  <!-- Showing application loading time -->
+  <h4 id="loading-time">Estimated loading time: 30 seconds</h4>
+  <div id="dom-elements" style="display: none;">
+    <div class="row" id="event-container">
+      <div class="col col-lg-6 col-md-12">
+        <!-- Background Input Start -->
+        <label for="image-upload" id="image-upload-container">
+          <span class="btn btn-warning" data-toggle="tooltip" title="import background image from device">
+            <img src="./assets/folder-search.svg" alt="import background image from device" width="20px"
+              height="20px" />
+            New Background Image
           </span>
-        </div>
-        <!-- Background Input END -->
+        </label>
+        <input id="image-upload" type="file" accept="image/*" style="display: none;" />
+        <span data-toggle="tooltip" title="Choose your background color">
+          <input type="color" id="background-color-picker" name="background-color-picker" value="#34eb89" />
+        </span>
+      </div>
+      <!-- Background Input END -->
 
-        <div class="col col-lg-6 col-md-12" id="tab-container">
-          <div class="row">
-            <div class="col-xs-12">
-              <nav>
-                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                  <a
-                    class="nav-item nav-link active"
-                    id="nav-video-capture-tab"
-                    data-toggle="tab"
-                    href="#nav-video-capture"
-                    role="tab"
-                    aria-controls="nav-video-capture"
-                    aria-selected="true"
-                    >Video Capture</a
-                  >
-                  <a
-                    class="nav-item nav-link"
-                    id="nav-image-capture-tab"
-                    data-toggle="tab"
-                    href="#nav-image-capture"
-                    role="tab"
-                    aria-controls="nav-image-capture"
-                    aria-selected="false"
-                    >Image Capture</a
-                  >
-                </div>
-              </nav>
-
-              <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-                <!-- Video Capture and Recording Start -->
-                <div
-                  class="tab-pane fade show active"
-                  id="nav-video-capture"
-                  role="tabpanel"
-                  aria-labelledby="nav-video-capture-tab"
-                >
-                  <div id="vid-cap-container">
-                    <div id="vid-ins-container">
-                      <button class="btn btn-light" id="record-canvas-btn">
-                        Start Recording
-                        <span class="badge" id="record-icon"
-                          ><svg
-                            width="1em"
-                            height="1em"
-                            viewBox="0 0 16 16"
-                            class="bi bi-camera-video-fill"
-                            fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M2.667 3h6.666C10.253 3 11 3.746 11 4.667v6.666c0 .92-.746 1.667-1.667 1.667H2.667C1.747 13 1 12.254 1 11.333V4.667C1 3.747 1.746 3 2.667 3z"
-                            />
-                            <path
-                              d="M7.404 8.697l6.363 3.692c.54.313 1.233-.066 1.233-.697V4.308c0-.63-.693-1.01-1.233-.696L7.404 7.304a.802.802 0 0 0 0 1.393z"
-                            /></svg
-                        ></span>
-                      </button>
-                      <a
-                        tabindex="0"
-                        class="btn btn-light popover-dismiss-vid"
-                        id="vid-ins-popover"
-                        role="button"
-                        data-toggle="popover"
-                        data-trigger="focus"
-                        title="Record Video"
-                        data-content="Record video directly from the stream, you can also download the captured video.
-                         Note that, the audio might be a little bit out of sync."
-                        ><svg
-                          width="1em"
-                          height="1em"
-                          viewBox="0 0 16 16"
-                          class="bi bi-info-circle-fill"
-                          fill="currentColor"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-                          /></svg
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Video Capture and Recording End -->
-
-                <!-- Image Capture Start -->
-                <div
-                  class="tab-pane fade"
-                  id="nav-image-capture"
-                  role="tabpanel"
-                  aria-labelledby="nav-image-capture-tab"
-                >
-                  <div id="image-capture-container">
-                    <button class="btn btn-secondary" id="capture-frame-btn">
-                      Capture Images&nbsp;
-                      <svg
-                        width="1em"
-                        height="1em"
-                        viewBox="0 0 16 16"
-                        class="bi bi-camera"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"
-                        />
-                        <path
-                          fill-rule="evenodd"
-                          d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"
-                        />
-                        <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
-                      </svg>
-                    </button>
-                    <a
-                      tabindex="0"
-                      class="btn btn-light popover-dismiss-img"
-                      id="vid-ins-popover"
-                      role="button"
-                      data-toggle="popover"
-                      data-trigger="focus"
-                      title="Capture Images"
-                      data-content="Capture images directly from the stream. You can capture and view multiple images at the same time. Download the one that fits your need."
-                      ><svg
-                        width="1em"
-                        height="1em"
-                        viewBox="0 0 16 16"
-                        class="bi bi-info-circle-fill"
-                        fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
-                        /></svg
-                      >
-                      </a>
-                    <div id="prev-img-container" class="row"></div>
-                  </div>
-                </div>
-                <!-- Image Capture END -->
+      <div class="col col-lg-6 col-md-12" id="tab-container">
+        <div class="row">
+          <div class="col-xs-12">
+            <nav>
+              <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-video-capture-tab" data-toggle="tab"
+                  href="#nav-video-capture" role="tab" aria-controls="nav-video-capture" aria-selected="true">Video
+                  Capture</a>
+                <a class="nav-item nav-link" id="nav-image-capture-tab" data-toggle="tab" href="#nav-image-capture"
+                  role="tab" aria-controls="nav-image-capture" aria-selected="false">Image Capture</a>
               </div>
+            </nav>
+
+            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+              <!-- Video Capture and Recording Start -->
+              <div class="tab-pane fade show active" id="nav-video-capture" role="tabpanel"
+                aria-labelledby="nav-video-capture-tab">
+                <div id="vid-cap-container">
+                  <div id="vid-ins-container">
+                    <button class="btn btn-light" id="record-canvas-btn">
+                      Start Recording
+                      <span class="badge" id="record-icon"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                          class="bi bi-camera-video-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M2.667 3h6.666C10.253 3 11 3.746 11 4.667v6.666c0 .92-.746 1.667-1.667 1.667H2.667C1.747 13 1 12.254 1 11.333V4.667C1 3.747 1.746 3 2.667 3z" />
+                          <path
+                            d="M7.404 8.697l6.363 3.692c.54.313 1.233-.066 1.233-.697V4.308c0-.63-.693-1.01-1.233-.696L7.404 7.304a.802.802 0 0 0 0 1.393z" />
+                        </svg></span>
+                    </button>
+                    <a tabindex="0" class="btn btn-light popover-dismiss-vid" id="vid-ins-popover" role="button"
+                      data-toggle="popover" data-trigger="focus" title="Record Video" data-content="Record video directly from the stream, you can also download the captured video.
+                         Note that, the audio might be a little bit out of sync."><svg width="1em" height="1em"
+                        viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                          d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                      </svg></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Video Capture and Recording End -->
+
+              <!-- Image Capture Start -->
+              <div class="tab-pane fade" id="nav-image-capture" role="tabpanel" aria-labelledby="nav-image-capture-tab">
+                <div id="image-capture-container">
+                  <button class="btn btn-secondary" id="capture-frame-btn">
+                    Capture Images&nbsp;
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+                      <path fill-rule="evenodd"
+                        d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                      <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                    </svg>
+                  </button>
+                  <a tabindex="0" class="btn btn-light popover-dismiss-img" id="vid-ins-popover" role="button"
+                    data-toggle="popover" data-trigger="focus" title="Capture Images"
+                    data-content="Capture images directly from the stream. You can capture and view multiple images at the same time. Download the one that fits your need."><svg
+                      width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle-fill" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                    </svg>
+                  </a>
+                  <div id="prev-img-container" class="row"></div>
+                </div>
+              </div>
+              <!-- Image Capture END -->
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" ></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 
-    <!-- Don't remove!!! -->
-    <script src="./index.js"></script>
-  </body>
+  <!-- Don't remove!!! -->
+  <script src="./index.js"></script>
+</body>
+
 </html>
