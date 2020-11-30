@@ -65,7 +65,7 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-[![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/NJACKWinterOfCode/NWoC2020.svg)](https://gitter.im/NJACKWinterOfCode/NWoC2020?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) &nbsp; [![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 <!-- LICENSE -->
