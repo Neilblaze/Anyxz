@@ -20,6 +20,8 @@
 
 ### Built With
 
+[![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 * [HTML](https://www.w3schools.com/html/)
 * [Bootstrap](https://getbootstrap.com/docs/3.4/javascript/)
 * [ml5 -> Unet](https://ml5js.org/reference/api-unet/)
