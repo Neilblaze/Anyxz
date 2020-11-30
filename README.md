@@ -65,7 +65,8 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-[![Gitter](https://badges.gitter.im/NJACKWinterOfCode/NWoC2020.svg)](https://gitter.im/NJACKWinterOfCode/NWoC2020?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) &nbsp; [![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- NWOC Gitter Channel ➜ [![Gitter](https://badges.gitter.im/NJACKWinterOfCode/NWoC2020.svg)](https://gitter.im/NJACKWinterOfCode/NWoC2020?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+- Anyxz Communication Channel ➜ [![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 <!-- LICENSE -->
@@ -73,6 +74,11 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+<!-- RESOURCES -->
+## Resources
+
+- NWOC 2020 Get started [Guide](https://github.com/NJACKWinterOfCode/Get-Started-NWoC20).
+- Git [Good Practices](https://medium.com/datreeio/top-10-github-best-practices-for-developers-d6309a613227)
 
 <!-- CONTACT -->
 ## Contact
