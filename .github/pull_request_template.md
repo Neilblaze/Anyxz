@@ -1,14 +1,17 @@
-Description of the pull request:
+What is the change?
 
-Related Issue:
 
-New Feature Submissions:
-- [ ] Does your submission pass tests?
-- [ ] Have you lint your code locally prior to submission?
+What does it fix/add?
 
-All Submissions:
-- [ ] Have you followed the guidelines in our Contributing document?
-- [ ] Have you checked to ensure there aren't other open Pull Requests for the same update/change?
+
+How was it tested?
+
+
+Submissions guide:
+- [ ] Have you followed the [Contribution guide](https://github.com/Neilblaze/Anyxz/blob/master/CONTRIBUTING.md)?
+- [ ] Have you checked to ensure there aren't other open [Pull Requests](https://github.com/Neilblaze/Anyxz/pulls) for the same update/change?
+- [ ] Have you made corresponding changes to the documentation?
 - [ ] Your submission doesn't break any existing feature.
+- [ ] Have you lint your code locally prior to submission?
 
 Screenshots (if appropriate):
