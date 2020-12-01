@@ -85,6 +85,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neilblaze)
 
+<img align="right" width="500" height="200" src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/nwoc-logo.png">
+
+
+# This project has been selected for NJACK Winter of Code 2020
+
+[![GitHub license](https://img.shields.io/github/license/Neilblaze/Anyxz)](https://github.com/Neilblaze/Anyxz/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Neilblaze/Anyxz)](https://github.com/Neilblaze/Anyxz/issues)
+[![GitHub forks](https://img.shields.io/github/forks/Neilblaze/Anyxz)](https://github.com/Neilblaze/Anyxz/network)
+[![GitHub stars](https://img.shields.io/github/stars/Neilblaze/Anyxz)](https://github.com/Neilblaze/Anyxz/stargazers)
+
+#### NWoC (NJACK Winter of Code) is a program by NJACK (The Official Computer Science Club of IIT Patna) that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.
+
+
 <br />
 <p align="center">
   <a href="https://vercel.com">
