@@ -6,7 +6,7 @@
   <h3 align="center">Anyxz</h3>
 
   <p align="center">
-    Realtime Video Background Semantic Segmentation in Browser ⚡
+    <b>Realtime Video Background Semantic Segmentation in Browser ⚡ </b>
     <br />
     <br />
     <a href="https://anyxz.vercel.app">View Demo</a>
@@ -25,6 +25,18 @@
 * [ml5 -> Unet](https://ml5js.org/reference/api-unet/)
 * [p5js](https://p5js.org/)
 
+<div align="center">
+
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
+
+</div>
+
+## Project Demo-
+![Demo1](assets/demo1.png)
+![Demo1](assets/demo2.png)
+![Demo1](assets/demo3.png)
+![Demo1](assets/demo4.png)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -48,16 +60,18 @@ Now you're ready to do something awesome!
 
 
 <!-- ROADMAP -->
-## Roadmap
+### Roadmap
 
 See the [open issues](https://github.com/Neilblaze/Anyxz/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- CONTRIBUTING -->
-## :v: Contributing
+### :v: Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Note: Always follow the [Contribution Guidelines](CONTRIBUTING.md)
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -72,7 +86,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <!-- RESOURCES -->
 ## ✨ Resources
