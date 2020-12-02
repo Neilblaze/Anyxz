@@ -1,12 +1,10 @@
 //initializing the element, but not showing it yet [look at `gotResult` function]
-const eventContainer = document.querySelector("#dom-elements"); 
+const eventContainer = document.querySelector("#dom-elements");
 
 const imgUpload = document.querySelector("#image-upload");
 const captureFrameBtn = document.querySelector("#capture-frame-btn");
 const prevImgContainer = document.querySelector("#prev-img-container");
-const prevVidContainer = document.querySelector(
-  "#vid-cap-container"
-);
+const prevVidContainer = document.querySelector("#vid-cap-container");
 const recordBtn = document.querySelector("#record-canvas-btn");
 const backgroundColour = document.querySelector("#background-color-picker");
 const recIconClone = document.querySelector("#record-icon").cloneNode(true);
@@ -77,7 +75,7 @@ function setup() {
   video.class("webcam-feed");
   sgImage = createImage(width, height);
   uNet.segment(video, gotResult); // initial segmentation
-  bg = loadImage("./assets/loadingx.jpg"); // initial loading image
+  bg = loadImage("./assets/site_loading_gif.gif"); // initial loading image
 }
 
 //adding the dom elements, from p5js. this function runs continuously
