@@ -90,7 +90,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neilblaze)
 
-<img align="right" width="500" height="200" src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/nwoc-logo.png">
+<a href="https://njackwinterofcode.github.io/"><img align="right" width="500" height="200" src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/nwoc-logo.png"></a>
 
 
 # This project has been selected for NJACK Winter of Code 2020
