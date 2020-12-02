@@ -5,18 +5,26 @@
   </a>
   <h3 align="center">Anyxz</h3>
 
-  <p align="center">
-    <b>Realtime Video Background Semantic Segmentation in Browser ⚡ </b>
-    <br />
-    <br />
+  <div align="center">
+    <p style="font-size:1.2rem;">Realtime Video Background Semantic Segmentation in Browser ⚡</p>
     <a href="https://anyxz.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/Neilblaze/Anyxz/issues/new/choose">Report Bug</a>
     ·
     <a href="https://github.com/Neilblaze/Anyxz/issues">Request Feature</a>
-  </p>
+  </div>
 </p>
+    <br />
+<div align="center">
 
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) 
+
+<a href="https://www.w3.org/html/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="70" height="70"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="60" height="60"/> </a>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
+</div>
 
 ### ⚙️ Built With
 
@@ -25,18 +33,6 @@
 * [ml5 -> Unet](https://ml5js.org/reference/api-unet/)
 * [p5js](https://p5js.org/)
 
-<div align="center">
-
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
-[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
-
-</div>
-
-## Project Demo-
-![Demo1](assets/demo1.png)
-![Demo1](assets/demo2.png)
-![Demo1](assets/demo3.png)
-![Demo1](assets/demo4.png)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -44,7 +40,8 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### :rocket: Local Development
+<!-- LOCAL DEVELOPMENT -->
+## :rocket: Local Development
 
 1. Clone the repository:
 
@@ -57,17 +54,13 @@ cd Anyxz
 
 Now you're ready to do something awesome!
 
-
-
 <!-- ROADMAP -->
-### Roadmap
+## Roadmap
 
 See the [open issues](https://github.com/Neilblaze/Anyxz/issues) for a list of proposed features (and known issues).
 
-
-
 <!-- CONTRIBUTING -->
-### :v: Contributing
+## :v: Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -81,7 +74,6 @@ Note: Always follow the [Contribution Guidelines](CONTRIBUTING.md)
 
 - NWOC Gitter Channel ➜ [![Gitter](https://badges.gitter.im/NJACKWinterOfCode/NWoC2020.svg)](https://gitter.im/NJACKWinterOfCode/NWoC2020?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 - Anyxz Communication Channel ➜ [![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 
 <!-- LICENSE -->
 ## License
