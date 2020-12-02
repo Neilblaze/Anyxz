@@ -75,7 +75,7 @@ function setup() {
   video.class("webcam-feed");
   sgImage = createImage(width, height);
   uNet.segment(video, gotResult); // initial segmentation
-  bg = loadImage("./assets/site_loading_gif.gif"); // initial loading gif
+  bg = loadImage("./assets/site_loading_svg.svg"); // initial loading svg
 }
 
 //adding the dom elements, from p5js. this function runs continuously
