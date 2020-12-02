@@ -4,6 +4,8 @@
 # How to contribute?
 
 ## Steps:
+  -  Star the Repo 🌟
+
   -  Go to [issues](https://github.com/Neilblaze/Anyxz/issues) & select one upon which you want to work!
   
   -  Fork the [repository](https://github.com/Neilblaze/Anyxz)

@@ -1,22 +1,29 @@
-<br />
 <p align="center">
   <a href="https://anyxz.vercel.app">
     <img src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/favicon.png" width="200px" alt="Anyxz" >
   </a>
   <h3 align="center">Anyxz</h3>
 
-  <p align="center">
-    Realtime Video Background Semantic Segmentation in Browser ⚡
-    <br />
-    <br />
+  <div align="center">
+    <p style="font-size:1.2rem;">Realtime Video Background Semantic Segmentation in Browser ⚡</p>
     <a href="https://anyxz.vercel.app">View Demo</a>
     ·
     <a href="https://github.com/Neilblaze/Anyxz/issues/new/choose">Report Bug</a>
     ·
     <a href="https://github.com/Neilblaze/Anyxz/issues">Request Feature</a>
-  </p>
+  </div>
 </p>
+    <br />
+<div align="center">
 
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) 
+
+<a href="https://www.w3.org/html/" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/html5/html5-original-wordmark.svg" alt="html5" width="70" height="70"/> </a> <a href="https://getbootstrap.com" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="60" height="60"/> </a>
+
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
+
+</div>
 
 ### ⚙️ Built With
 
@@ -32,7 +39,8 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### :rocket: Local Development
+<!-- LOCAL DEVELOPMENT -->
+## :rocket: Local Development
 
 1. Clone the repository:
 
@@ -45,19 +53,17 @@ cd Anyxz
 
 Now you're ready to do something awesome!
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/Neilblaze/Anyxz/issues) for a list of proposed features (and known issues).
 
-
-
 <!-- CONTRIBUTING -->
 ## :v: Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Note: Always follow the [Contribution Guidelines](CONTRIBUTING.md)
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -68,11 +74,10 @@ Contributions are what make the open source community such an amazing place to b
 - NWOC Gitter Channel ➜ [![Gitter](https://badges.gitter.im/NJACKWinterOfCode/NWoC2020.svg)](https://gitter.im/NJACKWinterOfCode/NWoC2020?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 - Anyxz Communication Channel ➜ [![Join the chat at https://gitter.im/Anyxz/community](https://badges.gitter.im/Anyxz/community.svg)](https://gitter.im/Anyxz/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <!-- RESOURCES -->
 ## ✨ Resources
@@ -85,7 +90,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neilblaze)
 
-<img align="right" width="500" height="200" src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/nwoc-logo.png">
+<a href="https://njackwinterofcode.github.io/"><img align="right" width="500" height="200" src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/nwoc-logo.png"></a>
 
 
 # This project has been selected for NJACK Winter of Code 2020
@@ -104,3 +109,19 @@ This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neil
     <img src="https://raw.githubusercontent.com/Neilblaze/Anyxz/c805c8727a84c4fd1aba8d3a52d30412acaa9524/assets/powered-by-vercel.svg" >
   </a>
 </p>
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/shobhit-kumar-1979b1191/"><img src="https://avatars0.githubusercontent.com/u/58087950?v=4" width="100px;" alt=""/><br /><sub><b>shobhit kumar</b></sub></a><br /><a href="https://github.com/Neilblaze/Anyxz/commits?author=kumarshobhit" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pranav-mendiratta-89713a173/"><img src="https://avatars1.githubusercontent.com/u/54665036?v=4" width="100px;" alt=""/><br /><sub><b>Pranav</b></sub></a><br /><a href="https://github.com/Neilblaze/Anyxz/commits?author=Pranav016" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
