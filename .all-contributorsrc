@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kumarshobhit",
+      "name": "shobhit kumar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/58087950?v=4",
+      "profile": "https://www.linkedin.com/in/shobhit-kumar-1979b1191/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Anyxz",
+  "projectOwner": "Neilblaze",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

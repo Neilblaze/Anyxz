@@ -1,4 +1,7 @@
 <br />
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://anyxz.vercel.app">
     <img src="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/favicon.png" width="200px" alt="Anyxz" >
@@ -110,3 +113,22 @@ This project is maintained by ➡️  [Pratyay Banerjee](https://github.com/Neil
     <img src="https://raw.githubusercontent.com/Neilblaze/Anyxz/c805c8727a84c4fd1aba8d3a52d30412acaa9524/assets/powered-by-vercel.svg" >
   </a>
 </p>
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/shobhit-kumar-1979b1191/"><img src="https://avatars0.githubusercontent.com/u/58087950?v=4" width="100px;" alt=""/><br /><sub><b>shobhit kumar</b></sub></a><br /><a href="https://github.com/Neilblaze/Anyxz/commits?author=kumarshobhit" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
