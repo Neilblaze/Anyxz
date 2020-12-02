@@ -1,6 +1,6 @@
 <br />
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <a href="https://anyxz.vercel.app">
@@ -124,6 +124,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/shobhit-kumar-1979b1191/"><img src="https://avatars0.githubusercontent.com/u/58087950?v=4" width="100px;" alt=""/><br /><sub><b>shobhit kumar</b></sub></a><br /><a href="https://github.com/Neilblaze/Anyxz/commits?author=kumarshobhit" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pranav-mendiratta-89713a173/"><img src="https://avatars1.githubusercontent.com/u/54665036?v=4" width="100px;" alt=""/><br /><sub><b>Pranav</b></sub></a><br /><a href="https://github.com/Neilblaze/Anyxz/commits?author=Pranav016" title="Documentation">📖</a></td>
   </tr>
 </table>
 
