@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "kumarshobhit",
+      "name": "shobhit kumar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/58087950?v=4",
+      "profile": "https://www.linkedin.com/in/shobhit-kumar-1979b1191/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Pranav016",
+      "name": "Pranav",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54665036?v=4",
+      "profile": "https://www.linkedin.com/in/pranav-mendiratta-89713a173/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Anyxz",
+  "projectOwner": "Neilblaze",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
