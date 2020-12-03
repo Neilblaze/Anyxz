@@ -297,33 +297,34 @@ nav > div a.nav-item.nav-link:hover {
   margin: 0 5vw;
 }
 
-#share {
-	width: 100%;
-  	margin: 100px auto;
+.share {
+	//width: 100%;
+  	margin: 10px auto;
   	text-align: center;
 }
 
 /* buttons */
 
-#share a {
-	width: 50px;
-  	height: 50px;
-  	display: inline-block;
-  	margin: 8px;
+.share a {
+	//align:left;
+	width: 25px;
+  	height: 25px;
+  	display: block;
+  	//margin: 4px;
   	border-radius: 50%;
-  	font-size: 24px;
+  	font-size: 12px;
   	color: #fff;
 	opacity: 0.75;
 	transition: opacity 0.15s linear;
 }
 
-#share a:hover {
+.share a:hover {
 	opacity: 1;
 }
 
 /* icons */
 
-#share i {
+.share i {
   	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
