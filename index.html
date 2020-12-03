@@ -23,6 +23,7 @@
   <!--  i have added the url of the website  -->
   <meta property="og:url" content="https://anyxz.vercel.app" />
   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
@@ -38,7 +39,7 @@
   <h1 id="title">Anyxz</h1>
 
   <!-- Experiment Alert Start-->
-  <link rel="manifest" href="manifest.json">
+  
   <div class="alert alert-primary" role="alert" id="expmnt-alert">
     This is an experiment!,
     <a href="mailto:neilblaze007@gmail.com">send feedback</a>
@@ -200,22 +201,25 @@
   <!-- Don't remove!!! -->
   <script src="./index.js"></script>
 
-  <div>
-    <footer>
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Share</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <br>
-      <div class="fb-share-button" data-href="https://anyxz.vercel.app/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fanyxz.vercel.app%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-      <br>
-      <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-<script type="IN/Share" data-url="https://anyxz.vercel.app/"></script>
-    </footer>
+  <div id="share">
+
+    <!-- facebook -->
+    <a class="facebook" href="https://www.facebook.com/share.php?u=https://anyxz.vercel.app" target="blank"><i class="fa fa-facebook"></i></a>
+
+  
+    <!-- twitter -->
+    <a class="twitter" href="https://twitter.com/intent/tweet?status=https://anyxz.vercel.app" target="blank"><i class="fa fa-twitter"></i></a>
+  
+    <!-- google plus -->
+    <a class="googleplus" href="https://plus.google.com/share?url=https://anyxz.vercel.app" target="blank"><i class="fa fa-google-plus"></i></a>
+  
+    <!-- linkedin -->
+    <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://anyxz.vercel.app" target="blank"><i class="fa fa-linkedin"></i></a>
+    
+    <!-- pinterest -->
+    <a class="pinterest" href="https://pinterest.com/pin/create/bookmarklet/?url=https://anyxz.vercel.app" target="blank"><i class="fa fa-pinterest-p"></i></a>
+    
   </div>
 </body>
-<script>
-  if (!navigator.serviceWorker.controller) {
-      navigator.serviceWorker.register("/sw.js").then(function(reg) {
-          console.log("Service worker has been registered for scope: " + reg.scope);
-      });
-  }
- </script>
+
 </html>
