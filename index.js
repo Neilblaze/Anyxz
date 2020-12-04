@@ -1,5 +1,5 @@
 //initializing the element, but not showing it yet [look at `gotResult` function]
-const eventContainer = document.querySelector("#dom-elements"); 
+const eventContainer = document.querySelector("#dom-elements");
 
 const imgUpload = document.querySelector("#image-upload");
 const captureFrameBtn = document.querySelector("#capture-frame-btn");
@@ -232,7 +232,7 @@ captureFrameBtn.addEventListener("click", () => {
     if (prevImgContainer.childElementCount > 5) {
       prevImgContainer.removeChild(
         prevImgContainer.getElementsByTagName("div")[
-          prevImgContainer.childElementCount - 1
+        prevImgContainer.childElementCount - 1
         ]
       );
     }
@@ -286,3 +286,11 @@ backgroundColour.addEventListener("change", (e) => {
   bg = e.target.value;
   background(bg);
 });
+
+
+//  this is the code for dark mode
+let input = document.querySelector('#toggle');
+input.addEventListener('click', () => {
+  document.body.classList.toggle('switch');
+
+})
