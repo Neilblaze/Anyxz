@@ -3,30 +3,32 @@
 
 <head>
   <meta charset="UTF-8" />
-  <!-- i have set the viewport  -->
+  <!-- set the viewport  -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- i am changing the title to improve seo -->
+  <!-- changed the title to improve seo -->
   <title>Anyxz</title>
   <meta property="og:title" content="Ez Video Background Semantic Segmentation" />
   <meta property="og:type" content="website" />
-  <!-- I am adding the site name -->
+  <!--  added the site name -->
   <meta property="og:site_name" content="Anyxz">
 
   <!-- Update reqd -->
-  <!--  i have added the main logo as the content in image -->
+  <!--   added the main logo as the content in image -->
   <meta property="og:image" content="https://raw.githubusercontent.com/Neilblaze/Anyxz/master/assets/favicon.png" />
   <!-- meta description -->
   <meta name="description" content="Ez Change/Modify segmented video background!">
   <meta property="og:description" content="Ez Change/Modify segmented video background!" />
 
   <!-- Update reqd -->
-  <!--  i have added the url of the website  -->
+  <!--   added the url of the website  -->
   <meta property="og:url" content="https://anyxz.vercel.app" />
   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+  <!--  toggle button -->
+  <link rel="stylesheet" href="button.css">
   <!-- Don't alter the sequence -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
@@ -40,6 +42,13 @@
     This is an experiment!,
     <a href="mailto:neilblaze007@gmail.com">send feedback</a>
   </div>
+
+  <!-- placement of toggle button -->
+  <div class="dark fixed-top">
+    <span id="toggle"><input type="checkbox">
+    </span>
+  </div>
+
   <!-- Experiment Alert End -->
 
   <!-- Webcam doc and warning section START -->
@@ -97,7 +106,7 @@
   <h4 id="loading-time">Estimated loading time: 30 seconds</h4>
   <div id="dom-elements" style="display: none;">
     <div class="row" id="event-container">
-      <div class="col col-lg-6 col-md-12" id="add-background">
+      <div class="col col-lg-6 col-md-12"  id="add-background">
         <!-- Background Input Start -->
         <label for="image-upload" id="image-upload-container">
           <span class="btn btn-warning" data-toggle="tooltip" title="import background image from device">
