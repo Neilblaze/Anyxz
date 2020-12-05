@@ -233,8 +233,10 @@ nav > div a.nav-item.nav-link:hover {
 
 /* For responsiveness */
 @media only screen and (max-width: 1190px) {
+
   #event-container{
     display: block;
+    padding-left: 90px ;
   }
 
   #event-container > div{
@@ -252,9 +254,19 @@ nav > div a.nav-item.nav-link:hover {
 }
 
 @media only screen and (max-width: 992px) {
-  #tab-container {
-    margin-top: 5vh;
+  #event-container{
+    padding-left: 10px;
+    padding-right: 80px;
   }
+
+  #nav-tab{
+    margin-left: 30px;
+    margin-right: 100px;
+  }
+
+  /* #tab-container {
+    margin-top: 5vh;
+  } */
 
   .webcam-feed {
     display: none;
@@ -262,6 +274,7 @@ nav > div a.nav-item.nav-link:hover {
 
   canvas {
     margin-left: calc((90vw - 540px) / 2);
+    margin-right: calc((90vw - 540px) / 2);
   }
 
   #background-color-picker {
@@ -274,7 +287,11 @@ nav > div a.nav-item.nav-link:hover {
 
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 770px) {
+  #event-container{
+    padding-left: 10px;
+  }
+
   #expmnt-alert {
     position: sticky;
     width: 100%;
@@ -282,7 +299,8 @@ nav > div a.nav-item.nav-link:hover {
   }
 
   #nav-tab {
-    display: block;
+    margin-left: auto;
+    margin-right: 0px;
   }
 
   #image-capture-container {
