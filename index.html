@@ -23,6 +23,7 @@
   <!--   added the url of the website  -->
   <meta property="og:url" content="https://anyxz.vercel.app" />
   <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Alef&display=swap" rel="stylesheet">
@@ -38,6 +39,7 @@
   <h1 id="title">Anyxz</h1>
 
   <!-- Experiment Alert Start-->
+  
   <div class="alert alert-primary" role="alert" id="expmnt-alert">
     This is an experiment!,
     <a href="mailto:neilblaze007@gmail.com">send feedback</a>
@@ -89,6 +91,7 @@
   <!-- Webcam doc and warning section END -->
 
   <!-- Audio permission denial - toast warning START -->
+
   <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="audio-denial-toast">
     <div class="toast-header">
       <strong class="mr-auto" id="toast-title">No Audio</strong>
@@ -96,7 +99,7 @@
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
-    <div class="toast-body">
+
       Audio permission denied, recording without audio
     </div>
   </div>
@@ -105,9 +108,31 @@
   <!-- Showing application loading time -->
   <h4 id="loading-time">Estimated loading time: 30 seconds</h4>
   <div id="dom-elements" style="display: none;">
+    <div class="toast-body">
+      <div class="share">
+
+        <!-- facebook -->
+        <a class="facebook" href="https://www.facebook.com/share.php?u=https://anyxz.vercel.app" target="blank"><i class="fa fa-facebook"></i></a>
+        
+      
+        <!-- twitter -->
+        <a class="twitter" href="https://twitter.com/intent/tweet?status=https://anyxz.vercel.app" target="blank"><i class="fa fa-twitter"></i></a>
+     
+        <!-- google plus -->
+        <a class="googleplus" href="https://plus.google.com/share?url=https://anyxz.vercel.app" target="blank"><i class="fa fa-google-plus"></i></a>
+     
+        <!-- linkedin -->
+        <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https://anyxz.vercel.app" target="blank"><i class="fa fa-linkedin"></i></a>
+      
+        <!-- pinterest -->
+        <a class="pinterest" href="https://pinterest.com/pin/create/bookmarklet/?url=https://anyxz.vercel.app" target="blank"><i class="fa fa-pinterest-p"></i></a>
+        
+      </div>
     <div class="row" id="event-container">
+
       <div class="col col-lg-6 col-md-12">
         <!-- Background Input Start -->
+
         <label for="image-upload" id="image-upload-container">
           <span class="btn btn-warning" data-toggle="tooltip" title="import background image from device">
             <img src="./assets/folder-search.svg" alt="import background image from device" width="20px"
@@ -136,6 +161,7 @@
             </nav>
 
             <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
               <!-- Video Capture and Recording Start -->
               <div class="tab-pane fade show active" id="nav-video-capture" role="tabpanel"
                 aria-labelledby="nav-video-capture-tab">
@@ -165,6 +191,7 @@
               <!-- Video Capture and Recording End -->
 
               <!-- Image Capture Start -->
+
               <div class="tab-pane fade" id="nav-image-capture" role="tabpanel" aria-labelledby="nav-image-capture-tab">
                 <div id="image-capture-container">
                   <button class="btn btn-secondary" id="capture-frame-btn">
