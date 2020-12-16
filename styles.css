@@ -4,6 +4,13 @@ html {
   margin: 0 2vw;
 }
 
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
 #title {
   border: 2px dashed rgb(71, 70, 70);
   display: table;
@@ -403,6 +410,7 @@ nav > div a.nav-item.nav-link:hover {
 .pinterest {
   	background: #cb2027;
 }
+
 
 
 
