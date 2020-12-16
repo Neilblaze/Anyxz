@@ -3,6 +3,7 @@ const assets = [
   "/",
   "/index.html",
   "/styles.css",
+  "/button.css",
   "/index.js",
   "/assets/favicon.png",
   "/assets/folder-search.svg",
@@ -14,7 +15,7 @@ const assets = [
   "/js/ml5.min.js",
   "/js/p5.dom.min.js",
   "/js/popper.min.js",
-  "/button.css",
+  
 ]
 
 self.addEventListener("install", installEvent => {
